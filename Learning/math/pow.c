@@ -1,0 +1,22 @@
+#include <math.h>
+#include <stdio.h>
+
+int main() {
+
+    double base, exp, result;
+
+    printf("\n");
+
+    printf("Enter a base number: ");
+    scanf("%lf", &base);
+    
+    printf("Enter an exponent: ");
+    scanf("%lf", &exp);
+
+    result = pow(base, exp);
+
+    printf("\n");
+    
+    printf("%.1lf^%.1lf = %.2lf\n\n", base, exp, result);
+    return 0;
+}
