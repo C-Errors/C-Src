@@ -4,7 +4,7 @@
 
 union empinfo{
     char name[20];
-    char depname[20];
+    char deptname[20];
     int age;
 };
 
@@ -12,7 +12,7 @@ int main()
 {
     union empinfo emp1;
     emp1.name;
-    emp1.depname;
+    emp1.deptname;
     emp1.age;
 
     printf("\nEnter 1st Employee name: ");
@@ -22,11 +22,11 @@ int main()
     printf("1st Employee name = %s" , emp1.name);\
     printf("\n==================================\n\n");
 
-    printf("Enter 1st Employee dep name: ");
-    scanf("%s", &emp1.depname);
+    printf("Enter 1st Employee dept name: ");
+    scanf("%s", &emp1.deptname);
 
     printf("\n==================================\n");
-    printf("1st Employee dept name = %s" , emp1.depname);
+    printf("1st Employee dept name = %s" , emp1.deptname);
     printf("\n==================================\n\n");
 
     printf("Enter 1st Employee age: ");
@@ -38,7 +38,7 @@ int main()
 
     union empinfo emp2;
     emp2.name;
-    emp2.depname;
+    emp2.deptname;
     emp2.age;
 
     printf("\nEnter 2nd Employee name: ");
@@ -49,10 +49,10 @@ int main()
     printf("\n==================================\n\n");
 
     printf("Enter 2nd Employee dep name: ");
-    scanf("%s", &emp2.depname);
+    scanf("%s", &emp2.deptname);
 
     printf("\n==================================\n");
-    printf("2nd Employee dept name = %s" , emp2.depname);
+    printf("2nd Employee dept name = %s" , emp2.deptname);
     printf("\n==================================\n\n");
 
     printf("Enter 2nd Employee age: ");
