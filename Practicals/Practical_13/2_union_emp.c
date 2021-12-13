@@ -56,7 +56,7 @@ int main()
     printf("\n==================================\n\n");
 
     printf("Enter 2nd Employee age: ");
-    scanf("%d", &emp1.age);
+    scanf("%d", &emp2.age);
 
     printf("\n==================================\n");
     printf("2nd Employee age = %d" , emp2.age);
