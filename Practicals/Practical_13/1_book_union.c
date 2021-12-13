@@ -30,7 +30,7 @@ int main()
 
     printf("Books price = %d\n\n" , book.price);
 
-    printf("Book name = %s \n Book author = %s \n Book price = %d", book.name , book.author , book.price);
+    printf("Book name = %s \n Book author = %s \n Book price = %d", book.name , book.author , book.price); //TO SHOW GARBAGE VALUE
 
     return 0; 
 }
