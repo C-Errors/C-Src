@@ -1,7 +1,6 @@
 #include <stdio.h>
 void main()
 {
-
     int num=10;
     float temp=12.79;
     int *ptr=&num;
