@@ -3,13 +3,13 @@
 void func1();
 void func2();
 	
-void __attribute__((constructor))func1(); 
-void __attribute__((destructor)) func2(); 
+// void __attribute__((constructor))func1(); 
+// void __attribute__((destructor)) func2(); 
 
-#pragma warn -xxx
-#pragma warn -rvl
-#pragma warn -par
-#pragma warn -rch
+// #pragma warn -xxx
+// #pragma warn -rvl
+// #pragma warn -par
+// #pragma warn -rch
 
 void func1()
 {
