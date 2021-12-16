@@ -16,5 +16,4 @@ void main()
     #ifndef circleArea
         printf("\nCircle area defination is removed");
     #endif
-
 }
