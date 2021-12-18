@@ -3,7 +3,7 @@
 void func1();
 void func2();
 	
-// void __attribute__((constructor))func1(); 
+// void __attribute__((constructor)) func1(); 
 // void __attribute__((destructor)) func2(); 
 
 // #pragma warn -xxx
