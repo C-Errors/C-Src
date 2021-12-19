@@ -2,7 +2,7 @@
 
 void main()
 {
-   int i,j=0,a=0;
+   int i,j = 0,a = 0;
    int n [10];
    int o [10];
    int e [10];
