@@ -13,7 +13,7 @@ int main()
         {    
             r = n % 10;    
             sum = (sum*10) + r;    
-            n = n / 10;    
+            n = n / 10;   
         }    
     if(temp == sum)
     {
