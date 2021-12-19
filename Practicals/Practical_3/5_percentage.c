@@ -34,7 +34,7 @@ int main()
     }
     else
     {
-        printf("Grade F");
+        printf("Grade F , You failed");
     }
 
     return 0;
