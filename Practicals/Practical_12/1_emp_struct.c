@@ -1,20 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+// #include <stdlib.h>
+// #include <string.h>    //not necessary
 
 struct Employee{
     char name[50];
     int id;
     int salary;
-};
+};                       //defining struct
 
 int main()
 {
     struct Employee employee;
-    employee.salary;
-    employee.id;
     employee.name;
-
+    employee.id;
+    employee.salary;
+    
     printf("\n");
 
     printf("Enter employee name: ");

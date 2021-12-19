@@ -5,14 +5,12 @@ void asce(int n)
    int m[5];
    
    for (i=0;i<n;i++)
-
     {
         printf("\nEnter a number :");
         scanf("%d",&m[i]);
     }
      
-   for (i=0;i<n;i++)
-
+    for (i=0;i<n;i++)
     {
       for (j=i+1;j<n;j++)
         {
@@ -25,12 +23,10 @@ void asce(int n)
         }
         }
     }
-     for (i=0;i<n;i++)
-
+    for (i=0;i<n;i++)
     {
        printf("%d\n",m[i]);
     }
-   
     printf("\nEND OF PROGRAM");
 }
 void main()

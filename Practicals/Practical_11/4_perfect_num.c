@@ -2,11 +2,12 @@
 #include <conio.h>
 
 void clrscr(void);
-
 int perfect(int);
-int main(){
+
+int main()
+{
         int num,s;
-        void clrscr();
+        void clrscr();   //not needed
 
         printf("Enter an integer number: ");
         scanf("%d",&num);
@@ -17,14 +18,15 @@ int main(){
         else
         printf("\nThe given number %d is not a perfect number",num);
         return 0;
-        }
+}
 
 int perfect(int number){
         int a=1, sum=0;
-        while(a < number){
-        if(number % a == 0)
-        sum=sum+a;
-        a++;
+        while(a < number)
+        {
+                if(number % a == 0)
+                sum=sum+a;
+                a++;
         }
         return(sum);
 }

@@ -11,15 +11,17 @@ void main()
     printf("\nEnter the value of x and y : ");
     scanf("%d%d",&x,&y);
 
-    xptr=&x;
-    yptr=&y;
+    xptr = &x;
+    yptr = &y;
 
-    if(*xptr>*yptr)
+    if(*xptr > *yptr)
     {
-        large=xptr;
+        large = xptr;
     }
     else
-    large=yptr;
+    {
+        large = yptr;
+    }
     printf("\nThe largest nmuber is : %d",*large);
-    getch();
+    getch();   //not needed
 }

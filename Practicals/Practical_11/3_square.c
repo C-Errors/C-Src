@@ -4,7 +4,6 @@ void addition()
 {
     int num1;
     printf("\nPlease enter a number: ");
-
     scanf("%d", &num1);
 
     printf("Square of number %d is %d", num1 , num1 * num1);

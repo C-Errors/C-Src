@@ -18,10 +18,10 @@ long convert(int n) {
   int rem, i = 1;
 
   while (n != 0) {
-    rem = n % 2;
-    binary = binary +  rem*i;
-    i = i * 10;
-    n = n / 2;
+      rem = n % 2;
+      binary = binary +  rem*i;   //decimal to binary formula
+      i = i * 10;
+      n = n / 2;
   }
   return binary;
 }
