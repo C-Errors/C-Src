@@ -2,12 +2,12 @@
 
 int main()    
 {    
-    int n,r,sum=0,temp; 
+    int n , r , sum=0 , temp; 
 
     printf("Enter a number: ");    
     scanf("%d",&n);    
 
-    temp=n;
+    temp = n;
 
     while(n>0)    
         {    
