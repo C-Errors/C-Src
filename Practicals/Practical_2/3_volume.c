@@ -2,30 +2,33 @@
 
 void main()
 {
-float r;
-double volume;
+    float r;
+    double volume;
 
-printf("\nENTER THE RADIUS TO CALCULATE THE VOLUME OF SPHERE\n");
-scanf("%f",&r);
-volume=(4/3)*(22.0/7.0)*(r*r*r);
+    printf("\nENTER THE RADIUS TO CALCULATE THE VOLUME OF SPHERE\n");
+    scanf("%f",&r);
 
-printf("\nTHE VOLUME OF THE SPHERE: %f",volume);
+    volume=(4/3)*(22.0/7.0)*(r*r*r);
 
-float s;
-double volume1;
+    printf("\nTHE VOLUME OF THE SPHERE: %f",volume);
 
-printf("\nENTER THE EDGE TO CALCULATE THE VOLUME OF CUBE\n");
-scanf("%f",&s);
-volume1=s*s*s;
+    float s;
+    double volume1;
 
-printf("\nTHE VOLUME OF THE CUBE: %f",volume1);
+    printf("\nENTER THE EDGE TO CALCULATE THE VOLUME OF CUBE\n");
+    scanf("%f",&s);
 
-float r1,h;
-double vol2;
+    volume1=s*s*s;
 
-printf("\nENTER THE RADIUS AND HEIGHT OF THE CYLINDER TO CALCULATE THE VOLUME\n");
-scanf("%f%f",&r1,&h);
-vol2=(22.0/7.0)*(r1*r1)*h;
+    printf("\nTHE VOLUME OF THE CUBE: %f",volume1);
 
-printf("\nTHE VOLUME OF THE CYLINDER: %f",vol2);
+    float r1,h;
+    double vol2;
+
+    printf("\nENTER THE RADIUS AND HEIGHT OF THE CYLINDER TO CALCULATE THE VOLUME\n");
+    scanf("%f%f",&r1,&h);
+    
+    vol2=(22.0/7.0)*(r1*r1)*h;
+
+    printf("\nTHE VOLUME OF THE CYLINDER: %f",vol2);
 }

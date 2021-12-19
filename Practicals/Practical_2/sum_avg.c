@@ -2,7 +2,7 @@
 
 void main ()
 {
-    float a, b , c , d;
+    float a, b , c , d ;
 
     printf("Enter Four numbers: ");
     scanf("%f%f%f%f", &a , &b , &c , &d);
