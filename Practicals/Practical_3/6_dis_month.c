@@ -4,6 +4,7 @@ void main()
    int num;
    printf("Input Month No : ");
    scanf("%d",&num);
+
    switch(num)
    {
 	case 1:
@@ -45,5 +46,5 @@ void main()
 	default:
 	       printf("invalid Month number.");
 	       break;
-      }
+      	}
 }
