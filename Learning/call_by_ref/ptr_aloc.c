@@ -14,4 +14,4 @@ void main()
 
     printf("\nValue of tp after tp++ = %x",++tp);
     printf("\n\nValue of tp-- = %x", --tp);
-} 
+}
