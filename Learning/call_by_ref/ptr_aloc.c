@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-    int num=10;
-    float temp=12.79;
-    int *ptr=&num;
+    int num = 10;
+    float temp = 12.79;
+    int *ptr = &num;
     float *tp = &temp;
 
     printf("Value of ptr = %x",ptr);
