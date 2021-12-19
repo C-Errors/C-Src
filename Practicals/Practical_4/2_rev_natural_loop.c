@@ -9,7 +9,7 @@ int main() {
     printf("\nNumbers form %d to 1\n", num);  
 
     counter = num;
-    do {  
+    do {
         printf("%d ", counter);  
         counter--;
     } while(counter > 0);
