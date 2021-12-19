@@ -2,10 +2,10 @@
   
 int main()    
 {    
-    int a=0, b=1; 
+    int a = 0, b = 1; 
     int c, i, number;
 
-    printf("\n\nEnter the number of elements: ");    
+    printf("\nEnter the number of elements: ");    
     scanf("%d",&number);   
 
     printf("\n%d %d",a,b);
