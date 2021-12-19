@@ -3,11 +3,12 @@
 void main()
 
 {
-    int a,b;
+    int a,b , ans;
     printf("ENTER 2 NUMBERS FOR ADDITION:");
     scanf("%d%d",&a,&b);
 
-    printf("THE SUM OF %d AND %d is %d",a,b,(a+b));
+    ans = a + b;
+    printf("THE SUM OF %d AND %d is %d",a,b,ans);
 
     float n,m;
     printf("\nENTER 2 NUMBERS FOR SUBTRACTION:");
