@@ -16,6 +16,7 @@ int identity(int num)
    }
    return 0;
 }
+
 int main()
 {
    int size = 3;
