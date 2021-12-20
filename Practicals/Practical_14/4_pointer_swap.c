@@ -2,9 +2,6 @@
 
 void swap(int *a, int *b)
 {
-    printf("\nPointer value of a = %d\n",*a);
-    printf("Pointer value of b = %d",*b);
-    printf("\n==================================\n");
 
     int t;
     t = *a;
@@ -24,11 +21,6 @@ int main()
     scanf("%d", &num2);
 
     printf("\nBefore swapping num1 = %d , num2 = %d\n", num1 , num2);
-
-    printf("\n==================================\n");
-    printf("Address value of num1 = %x\n",&num1);
-    printf("Address value of num2 = %x",&num2);
-    printf("\n\n==================================\n");
 
     swap(&num1,&num2);
 
