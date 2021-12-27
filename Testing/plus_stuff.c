@@ -9,6 +9,7 @@ int main()
         {
             printf("\n\nno , how is this even working")
         };
+        
     printf("%s", hi);
 
     printf("%s",lmao);
