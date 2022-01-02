@@ -9,7 +9,7 @@ int addition()
     int num1 , num2;
     printf("\nPlease enter two numbers: ");
     scanf("%d%d", &num1 , &num2);
-    return ( num1 + num2 );
+    return ( num1 + num2 );                //with return type
 }
 
 int substraction()
@@ -17,7 +17,7 @@ int substraction()
     int num1 , num2;
     printf("\nPlease enter two numbers: ");
     scanf("%d%d", &num1 , &num2);
-    return ( num1 - num2 );
+    return ( num1 - num2 );                 //with return type
 }
 
 void main()
