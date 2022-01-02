@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 void calc(int *p);
+
 void main()
 {
     int x = 10;
