@@ -2,19 +2,19 @@
 
 #include <stdio.h>
 
-void addition(int num1 ,int num2)
+void addition(int num1 ,int num2)  //parameters
 {
     printf("\nAddition of %d and %d = %d", num1 , num2 , num1 + num2);
 }
 
-void substraction(int num1 ,int num2)
+void substraction(int num1 ,int num2)  //parameters
 {
     printf("\nSubstraction of %d and %d = %d", num1 , num2 , num1 - num2);
 }
 
 void main()
 {
-    int num1 , num2;
+    int num1 , num2;       //define for parameters
 
     printf("\nStart of the program\n");
 

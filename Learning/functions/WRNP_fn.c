@@ -26,10 +26,10 @@ void main()
     int answer;
     printf("\nStart of the program\n");
 
-    answer = addition();
+    answer = addition();                               //bc return type
     printf("Addition result is %d\n", answer);
 
-    answer = substraction();
+    answer = substraction();                           //bc return type
     printf("Substraction result is %d\n", answer);
 
     printf("\nEnd of program\n\n");
