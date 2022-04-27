@@ -9,5 +9,4 @@ void main()
     printf("\n");
     printf(" O_('')('')");
     printf("\n\n");
-    
 }
